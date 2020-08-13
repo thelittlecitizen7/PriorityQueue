@@ -11,10 +11,10 @@ namespace PriorityQueueRunner
 
             PriorityQueue<char> pp = new PriorityQueue<char>();
 
-            /*pp.Enqueue(8, 'v');
+            pp.Enqueue(8, 'v');
             pp.Enqueue(2, 'D');
             pp.Enqueue(6, 'G');
-            pp.Enqueue(5, 'R');*/
+            pp.Enqueue(5, 'R');
 
             pp.Dequeue();
             
