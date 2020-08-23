@@ -6,12 +6,12 @@ namespace PriorityQueueRunner
 {
     public class Product
     {
-        public int Priority { get; set; }
+        public uint Priority { get; set; }
 
         public char Tav { get; set; }
         public Product(uint priority, char tav)
         {
-            Priority = (int)priority;
+            Priority = priority;
             Tav = tav;
         }
     }
